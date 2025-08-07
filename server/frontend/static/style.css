@@ -124,3 +124,54 @@ img{
     text-align:center;
     box-shadow: 2px 2px 3px #999;  
 }
+
+.contact-info-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.contact-icon {
+    flex: 1;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-details {
+    flex: 2;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.contact-details a {
+    color: #007fff;
+    text-decoration: none;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.contact-card {
+    width: 80%;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    padding: 30px;
+    background-color: white;
+    text-align: center;
+    position: relative;
+}
+
+.image-container {
+    position: relative;
+}
+
+.dealership-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
